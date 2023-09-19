@@ -1,8 +1,6 @@
 // import React from "react";
 
-// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ service }) => {
-  // eslint-disable-next-line react/prop-types
   const { title, img, price } = service;
   return (
     <div className="card w-50 m-1 bg-base-100 shadow-xl border-red-600 border-solid border-2">

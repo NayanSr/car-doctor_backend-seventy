@@ -7,7 +7,7 @@ const Navbar = () => {
       <li>
         <Link
           className="text-amber-900 font-serif text-xl hover:bg-sky-700 hover:text-amber-400	"
-          to="/home"
+          to="/"
         >
           Home
         </Link>

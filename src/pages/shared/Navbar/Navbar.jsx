@@ -42,9 +42,14 @@ const Navbar = () => {
           </Link>
         </li>
       ) : (
-        <li>
-          <button onClick={handleLogOut}>Logout</button>
-        </li>
+        <>
+          <li>
+            <Link to="/bookings">Bookings</Link>
+          </li>
+          <li>
+            <button onClick={handleLogOut}>Logout</button>
+          </li>
+        </>
       )}
     </>
   );

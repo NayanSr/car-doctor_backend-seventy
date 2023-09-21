@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  color: black;
+  width: 95%;
+  margin: 0 auto;
+}
